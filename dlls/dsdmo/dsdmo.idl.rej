@@ -1,0 +1,28 @@
+--- dlls/dsdmo/dsdmo.idl
++++ dlls/dsdmo/dsdmo.idl
+@@ -41,3 +41,11 @@ coclass DirectSoundParamEqDMO {}
+     uuid(87fc0268-9a55-4360-95aa-004a1d9de26c)
+ ]
+ coclass DirectSoundWavesReverbDMO {}
++
++[
++    uuid(ef3e932c-d40b-4f51-8ccf-3f98f1b29d5d),
++    threading(both),
++    progid("Microsoft.DirectSoundEchoDMO.1"),
++    vi_progid("Microsoft.DirectSoundEchoDMO")
++]
++coclass DirectSoundEchoDMO {}
+--- dlls/dsdmo/dsdmo.idl
++++ dlls/dsdmo/dsdmo.idl
+@@ -49,3 +49,11 @@ coclass DirectSoundWavesReverbDMO {}
+     vi_progid("Microsoft.DirectSoundEchoDMO")
+ ]
+ coclass DirectSoundEchoDMO {}
++
++[
++    uuid(ef011f79-4000-406d-87af-bffb3fc39d57),
++    threading(both),
++    progid("Microsoft.DirectSoundCompressorDMO.1"),
++    vi_progid("Microsoft.DirectSoundCompressorDMO")
++]
++coclass DirectSoundCompressorDMO {}

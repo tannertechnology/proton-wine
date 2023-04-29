@@ -1,0 +1,10 @@
+--- dlls/user32/input.c
++++ dlls/user32/input.c
+@@ -809,7 +809,6 @@ BOOL WINAPI BlockInput(BOOL fBlockIt)
+     return FALSE;
+ }
+ 
+-
+ /***********************************************************************
+  *		RegisterHotKey (USER32.@)
+  */

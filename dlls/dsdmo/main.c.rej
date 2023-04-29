@@ -1,0 +1,20 @@
+--- dlls/dsdmo/main.c
++++ dlls/dsdmo/main.c
+@@ -1127,6 +1223,7 @@ class_factories[] =
+     {&GUID_DSFX_STANDARD_I3DL2REVERB,   {{&class_factory_vtbl}, reverb_create}},
+     {&GUID_DSFX_STANDARD_PARAMEQ,       {{&class_factory_vtbl}, eq_create}},
+     {&GUID_DSFX_WAVES_REVERB,           {{&class_factory_vtbl}, waves_reverb_create}},
++    {&GUID_DSFX_STANDARD_ECHO,          {{&class_factory_vtbl}, echo_create}},
+ };
+ 
+ HRESULT WINAPI DllGetClassObject(REFCLSID clsid, REFIID iid, void **out)
+--- dlls/dsdmo/main.c
++++ dlls/dsdmo/main.c
+@@ -1224,6 +1320,7 @@ class_factories[] =
+     {&GUID_DSFX_STANDARD_PARAMEQ,       {{&class_factory_vtbl}, eq_create}},
+     {&GUID_DSFX_WAVES_REVERB,           {{&class_factory_vtbl}, waves_reverb_create}},
+     {&GUID_DSFX_STANDARD_ECHO,          {{&class_factory_vtbl}, echo_create}},
++    {&GUID_DSFX_STANDARD_COMPRESSOR,    {{&class_factory_vtbl}, compressor_create}},
+ };
+ 
+ HRESULT WINAPI DllGetClassObject(REFCLSID clsid, REFIID iid, void **out)

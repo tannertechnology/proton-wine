@@ -1,0 +1,10 @@
+--- dlls/shell32/Makefile.in
++++ dlls/shell32/Makefile.in
+@@ -33,6 +33,7 @@ C_SRCS = \
+ 	shelldispatch.c \
+ 	shellitem.c \
+ 	shelllink.c \
++	shellnew.c \
+ 	shellole.c \
+ 	shellord.c \
+ 	shellpath.c \

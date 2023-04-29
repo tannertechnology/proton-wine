@@ -1,0 +1,10 @@
+--- dlls/mfplat/tests/mfplat.c
++++ dlls/mfplat/tests/mfplat.c
+@@ -7921,6 +7968,7 @@ START_TEST(mfplat)
+     test_MFCreateDXSurfaceBuffer();
+     test_MFCreateTrackedSample();
+     test_MFFrameRateToAverageTimePerFrame();
++    test_MFAverageTimePerFrameToFrameRate();
+     test_MFMapDXGIFormatToDX9Format();
+     test_d3d11_surface_buffer();
+     test_d3d12_surface_buffer();

@@ -1,0 +1,14 @@
+--- dlls/shell32/shell32_classes.idl
++++ dlls/shell32/shell32_classes.idl
+@@ -86,6 +86,11 @@ coclass KnownFolderManager { interface IKnownFolderManager; }
+     uuid(4657278a-411b-11d2-839a-00c04fd918d0)
+ ] coclass DragDropHelper { interface IDropTargetHelper; }
+ 
++[
++    threading(apartment),
++    uuid(d969a300-e7ff-11d0-a93b-00a0c90f2719)
++] coclass NewMenu { interface IShellExtInit; }
++
+ [
+     threading(apartment),
+     uuid(00bb2763-6a77-11d0-a535-00c04fd7d062)

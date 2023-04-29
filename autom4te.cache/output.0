@@ -22701,6 +22701,7 @@ wine_fn_config_makefile dlls/ntoskrnl.exe enable_ntoskrnl_exe
 wine_fn_config_makefile dlls/ntoskrnl.exe/tests enable_tests
 wine_fn_config_makefile dlls/ntprint enable_ntprint
 wine_fn_config_makefile dlls/ntprint/tests enable_tests
+<<<<<<< HEAD
 wine_fn_config_makefile dlls/nvapi enable_win32
 wine_fn_config_makefile dlls/nvapi/tests enable_tests
 wine_fn_config_makefile dlls/nvapi64 enable_win64
@@ -22709,6 +22710,8 @@ wine_fn_config_makefile dlls/nvcuda/tests enable_tests
 wine_fn_config_makefile dlls/nvcuvid enable_nvcuvid
 wine_fn_config_makefile dlls/nvencodeapi enable_win32
 wine_fn_config_makefile dlls/nvencodeapi64 enable_win64
+=======
+>>>>>>> parent of fdfb4b925f5 (nvcuda: Add stub DLL)
 wine_fn_config_makefile dlls/objsel enable_objsel
 wine_fn_config_makefile dlls/odbc32 enable_odbc32
 wine_fn_config_makefile dlls/odbcbcp enable_odbcbcp
