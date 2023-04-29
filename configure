@@ -1587,7 +1587,6 @@ enable_ntdsapi
 enable_ntoskrnl_exe
 enable_ntprint
 enable_win32
-enable_nvcuda
 enable_nvcuvid
 enable_objsel
 enable_odbc32
